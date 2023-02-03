@@ -4,3 +4,5 @@ Upload here.
 
 Sign Language Transformers: Joint End-to-end Sign Language Recognition and Translation
 https://arxiv.org/abs/2003.13830
+
+Add https://github.com/ayushizenith/slt
