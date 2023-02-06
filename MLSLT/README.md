@@ -1,6 +1,7 @@
 # MLSLT: Towards Multilingual Sign Language Translation
 
-This is the official implementation of the MLSLT paper.
+
+This is the official implementation of the [MLSLT paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yin_MLSLT_Towards_Multilingual_Sign_Language_Translation_CVPR_2022_paper.pdf).
 
 ## Introduction
 
