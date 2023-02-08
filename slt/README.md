@@ -28,7 +28,7 @@ For the mBART-50 model, you will first need to tokenize the corpus using the mBA
 #### Training time on a RTX3070 not including evaluation time
 
 ### DeCoster - 2021 - bert2rnd
-`python -m signjoey train configs\lc\s2gt\phoenix14t_bert2rnd_50.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_bert2rnd_50.yaml`
 
 logs: logs/learning_curves/sign2glosstext/phoenix14t_bert2rnd/50/
 
@@ -42,7 +42,7 @@ TES: BLEU-4: 19.44
 
 
 ### Our Model - bert2rnd_50_multilingualBert
-`python -m signjoey train configs\lc\s2gt\phoenix14t_bert2rnd_50_multilingualBert.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_bert2rnd_50_multilingualBert.yaml`
 
 Best Bleu 4 from validation: 18.81
 
@@ -58,7 +58,7 @@ TES: BLEU-4: 19.25
 
 
 ### Our Model - bert2rnd_germanBert
-`python -m signjoey train configs\lc\s2gt\phoenix14t_bert2rnd_50_germanBert.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_bert2rnd_50_germanBert.yaml`
 
 logs: logs/learning_curves/sign2glosstext/phoenix14t_bert2rnd_german/50/
 
@@ -72,7 +72,7 @@ TES: BLEU-4: 18.93
 
 
 ### DeCoster - 2021 - bert2bert
-`python -m signjoey train configs\lc\s2gt\phoenix14t_bert2bert_50.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_bert2bert_50.yaml`
 
 
 logs: logs/learning_curves/sign2glosstext/phoenix14t_bert2bert/50/
@@ -87,7 +87,7 @@ TES: BLEU-4: 18.65
 
 ### Camgoz - 2020 - No pretrained model
 
-`python -m signjoey train configs\lc\s2gt\phoenix14t_50.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_50.yaml`
 
 logs: logs/learning_curves/sign2glosstext/phoenix14t/50/
 
@@ -101,7 +101,7 @@ TES: BLEU-4: 18.32
 
 
 ### Our Model - bert2bert_50_germanBert
-`python -m signjoey train configs\lc\s2gt\phoenix14t_bert2bert_50_germanBert.yaml`
+`python -m signjoey train configs/lc/s2gt/phoenix14t_bert2bert_50_germanBert.yaml`
 
 logs: logs/learning_curves/sign2glosstext/phoenix14t_bert2bert_german/50/
 
